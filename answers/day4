@@ -107,7 +107,7 @@ for i in finallist:#to iterate through each list
             pass
         
         else:
-            print('What the fuck did you do',i,jahcounter)
+            print('Error',i,jahcounter)
     print(jahcounter)
     if jahcounter == 7:
             answer += 1
