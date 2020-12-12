@@ -54,6 +54,5 @@ for i in actions:
         if fowarddirectionindex >= len(directionlist):
             fowarddirectionindex -= 4
         fowarddirection = directionlist[fowarddirectionindex]
-print(northcounter,southcounter,eastcounter,westcounter)
-print(abs(northcounter - southcounter))
-print(abs(eastcounter - westcounter))
+
+print(abs(northcounter - southcounter)+abs(eastcounter - westcounter))
